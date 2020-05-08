@@ -1,49 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind&family=Overpass:ital,wght@1,600&family=Prompt&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 
-.motto{
-    font-family: var(--prompt);
-    color: orchid;
-}
 
-:root{
-    --hind: "Hind", cursive;
-    --overpass: "Overpass", cursive;
-    --prompt: "Prompt", cursive;
-    --roboto: "Roboto", sans-serif;
+body{
+    font-family: "Prompt";
+    background-color: white;
 }
 
 .pict{
-    height: 600px;
+    height: 400px;
     width: 100%;
 }
 
 
 .logo{
-    color: orchid;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
     
 }
 
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+
 .main-font{
-    font-family: var(--prompt);
-    color: orchid;
+    font-family: "Prompt";
+    color: white;
 }
 
-.black{
-    color: black;
-}
 
-header{
+
+header nav {
     background-color: white;
-    font-family: var(--prompt);
-}
+    z-index: 5;
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 
-header .site-title{
-    font-family: var(--overpass);
-}
-
-h2{
-    color: orchid;
 }
 
 .header-links a{
@@ -53,11 +51,11 @@ h2{
 }
 
 .container-fluid{
-    background-color: orchid;
+    background-color: white;
 }
 
 .navbar-nav .nav-link{
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .instagram-icon{
@@ -69,13 +67,28 @@ h2{
     top: 50%;
 }
 
+.teks{
+    position: relative;
+    left: 100px;
+    top: 30px;
+    width: 600px;
+    height: 100px;
+    font-family: "Prompt";
+}
+
+.text2{
+    margin: 50%;
+}
+
 .site-slider{
     position: relative;
+    margin-left: 0rem;
+    margin-right: 0rem;
 }
 
 .site-slider .slider-btn .prev,
 .site-slider .slider-btn .next{
-    background-color: orchid;
+    background-color: green;
     padding: 1rem 1.5rem;
     border-radius: 10rem;
     color: white;
@@ -123,3 +136,11 @@ h2{
     transform: scale(1.5);
     box-shadow: 0px 3px 5px 1px;
 }
+
+#map{
+    height: 250px;
+    width: 400px;
+    left: 900px;
+    bottom: 80px
+}
+
