@@ -47,7 +47,7 @@ header nav {
 .header-links a{
     font-size: 0.9em;
     text-decoration: none;
-    color: orchid;
+    color: white;
 }
 
 .container-fluid{
@@ -58,9 +58,6 @@ header nav {
     font-size: 1.2em;
 }
 
-.instagram-icon{
-    size: 9px;
-}
 
 .position-top{
     position: absolute;

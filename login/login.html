@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Masuk/Daftar</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,7 +17,7 @@
             <div class="logo">
                 <img src="../assets/logo.png" alt="mainlogo">
             </div>
-            <form id="login" method="post" class="form">
+            <form id="login" class="form">
                 <label for="user-email" style="padding-top:20px">&nbsp;Email</label>
                 <input id="user-email" class="form-content" type="email" name="email" autocomplete="on" required />
                 <div class="form-border"></div>
@@ -28,7 +27,7 @@
                 <a href="#"><legend id="forgot-pass">Lupa Passowrd?</legend></a>
                 <button id="submit-btn" type="submit" class="login">LOGIN</button>
             </form>
-            <form id="register" method="post" class="form">
+            <form id="register" class="form">
                 <label for="user-name" style="padding-top:13px">&nbsp;Nama</label>
                 <input id="user-name" class="form-content" type="name" name="name"  required />
                 <div class="form-border"></div>
@@ -36,7 +35,7 @@
                 <input id="user-email" class="form-content" type="email" name="email" autocomplete="on" required />
                 <div class="form-border"></div>
                 <label for="user-phone" style="padding-top:13px">&nbsp;Nomor HP</label>
-                <input id="user-phone"  class="form-content"  type="number" name="phone" maxlength="12"  required />
+                <input id="user-phone"  class="form-content"  type="tel" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" name="phone" placeholder="0812-3456-7890" required />
                 <div class="form-border"></div>
                 <label for="user-password" style="padding-top:22px">&nbsp;Password</label>
                 <input  id="user-password"  class="form-content" type="password" name="password" required />

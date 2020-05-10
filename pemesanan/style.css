@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Overpass:ital,wght@1,600&family=Prompt&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+body{
+    font-family: "Prompt";
+    background-color: white;
+}
+
+.logo{
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+
+header nav {
+    background-color: white;
+    z-index: 5;
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-nav .nav-link{
+    font-size: 1.2em;
+}
+
+.card-content{
+    position: relative;
+}
+
+.form{
+    position: absolute;
+}
