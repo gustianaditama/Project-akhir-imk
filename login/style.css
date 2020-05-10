@@ -6,8 +6,7 @@
     padding: 0;
 }
 .card {
-    position: absolute;
-    margin: 6rem auto 8.1rem auto;
+    position: flex;
     width: 500px;
     height: 100%;
     width: 100%;
@@ -22,11 +21,17 @@ body {
 
 .card-content {
     width: 380px;
-    height: 1800px;
+    height: auto;
     position: relative;
     margin: 6% auto;
     padding: 5px;
     background: white;
+    overflow: hidden;
+    min-height: 700px;
+}
+
+.card-content.active{
+    height: 900px;
 }
 
 .button-box{
@@ -89,7 +94,7 @@ label {
     background: #fbfbfb;
     border: none;
     outline: none;
-    padding: 10px 0
+    padding: 10px 0;
     padding-top: 20px;
     width: 100%;
     border-left: 0;
