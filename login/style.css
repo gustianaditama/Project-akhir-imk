@@ -38,7 +38,7 @@ body {
     margin: 35px auto;
     position: relative;
     box-shadow: 0 0 20px 9px #a6f77b;
-    border-radius: 30px;
+    border-radius: 25px;
     display: flex;
 }
 
@@ -80,7 +80,7 @@ label {
 .form {
     position: absolute;
     width: 280px;
-    top: 140px;
+    top: 200px;
     transition: .5s;
 }
 
@@ -104,13 +104,12 @@ label {
 }
 
 .logo{
-    margin-left: 120px;
-    margin-top: 1px
+    margin-left: 140px;
 }
 
 .logo img{
-    height: 150px;
-    width: 150px
+    height: 100px;
+    width: 100px
 }
 
 .check-box{
@@ -134,7 +133,7 @@ label {
     font-family: "Raleway SemiBold", sans-serif;
     height: 42.3px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 69px;
     transition: 0.25s;
     width: 153px;
