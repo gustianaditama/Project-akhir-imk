@@ -6,8 +6,7 @@
     padding: 0;
 }
 .card {
-    position: flex;
-    width: 500px;
+    position: absolute;
     height: 100%;
     width: 100%;
     background-position: center;
@@ -27,11 +26,11 @@ body {
     padding: 5px;
     background: white;
     overflow: hidden;
-    min-height: 700px;
+    min-height: 60%;
 }
 
 .card-content.active{
-    height: 900px;
+    height: 75%;
 }
 
 .button-box{
@@ -81,7 +80,7 @@ label {
 .form {
     position: absolute;
     width: 280px;
-    top: 300px;
+    top: 140px;
     transition: .5s;
 }
 
@@ -115,7 +114,7 @@ label {
 }
 
 .check-box{
-    margin: 30px 10px 30px 0;
+    margin: 10px 5px 10px 0;
 }
 
 #signup {
