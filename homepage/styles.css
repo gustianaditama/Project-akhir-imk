@@ -9,7 +9,7 @@ body{
 }
 
 .pict{
-    height: 400px;
+    height: 600px;
     width: 100%;
 }
 
@@ -22,8 +22,8 @@ body{
 }
 
 .logo img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
 .main-font{
@@ -35,7 +35,7 @@ body{
 
 header nav {
     background-color: white;
-    z-index: 5;
+    z-index: 10;
     position: fixed;
     height: 10vh;
     width: 100%;
@@ -51,7 +51,7 @@ header nav {
 }
 
 .container-fluid{
-    background-color: white;
+    background-color: green;
 }
 
 .navbar-nav .nav-link{
@@ -137,7 +137,6 @@ header nav {
 #map{
     height: 250px;
     width: 400px;
-    left: 900px;
-    bottom: 80px
+    left: 750px;
+    bottom: 90px
 }
-
